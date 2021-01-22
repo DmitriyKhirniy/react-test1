@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "react-test1"
+  description: "react-test1"
+  annotations:
+    github.com/project-slug: DmitriyKhirniy/react-test1
+    backstage.io/techdocs-ref: url:https://github.com/DmitriyKhirniy/react-test1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"
